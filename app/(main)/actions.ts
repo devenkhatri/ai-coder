@@ -41,7 +41,7 @@ export async function createChat(
 
   async function fetchTitle() {
     const responseForChatTitle = await together.chat.completions.create({
-      model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
       messages: [
         {
           role: "system",
@@ -60,7 +60,7 @@ export async function createChat(
 
   async function fetchTopExample() {
     const findSimilarExamples = await together.chat.completions.create({
-      model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
       messages: [
         {
           role: "system",
@@ -92,7 +92,7 @@ export async function createChat(
   let fullScreenshotDescription;
   if (screenshotUrl) {
     const screenshotResponse = await together.chat.completions.create({
-      model: "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+      model: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
       temperature: 0.2,
       max_tokens: 1000,
       messages: [
@@ -117,7 +117,7 @@ export async function createChat(
   let userMessage: string;
   if (quality === "high") {
     let initialRes = await together.chat.completions.create({
-      model: "Qwen/Qwen2.5-Coder-32B-Instruct",
+      model: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
       messages: [
         {
           role: "system",

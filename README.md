@@ -16,6 +16,12 @@
 - Helicone for observability
 - Plausible for website analytics
 
+## Free Models
+- chat = meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+- image = black-forest-labs/FLUX.1-schnell-Free
+- chat = meta-llama/Llama-Vision-Free
+- chat = deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free
+
 ## Cloning & running
 
 1. Clone the repo: `git clone https://github.com/Nutlope/llamacoder`

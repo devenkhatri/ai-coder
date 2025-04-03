@@ -19,7 +19,7 @@ export default function Header() {
 
       <div className="absolute right-3">
         <a
-          href="https://github.com/nutlope/llamacoder"
+          href="https://github.com/devenkhatri/ai-coder"
           target="_blank"
           className="ml-auto hidden items-center gap-3 rounded-2xl bg-white px-6 py-2 shadow sm:flex"
         >

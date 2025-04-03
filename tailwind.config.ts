@@ -23,10 +23,15 @@ const config: Config = {
       },
       colors: {
         brand: "#E1E7EC",
-        blue: {
+        blueOLD: {
           "300": "#94b2fa",
           "500": "#326DF5",
           "700": "#1F326F",
+        },
+        blue: {
+          "300": "#0089ba",
+          "500": "#008e9b",
+          "700": "#008f7a",
         },
         gray: colors.zinc,
         background: "hsl(var(--background))",

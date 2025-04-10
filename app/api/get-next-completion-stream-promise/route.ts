@@ -54,7 +54,7 @@ export async function POST(req: Request) {
     messages: messages.map((m) => ({ role: m.role, content: m.content })),
     stream: true,
     temperature: 0.2,
-    max_tokens: 9000,
+    max_tokens: 1791,
   });
 
   return new Response(res.toReadableStream());

@@ -1,4 +1,4 @@
-export const MODELS = [
+export const MODELS1 = [
   {
     label: "Qwen 2.5 Coder 32B",
     value: "Qwen/Qwen2.5-Coder-32B-Instruct",
@@ -14,6 +14,17 @@ export const MODELS = [
   {
     label: "DeepSeek V3",
     value: "deepseek-ai/DeepSeek-V3",
+  },
+];
+
+export const MODELS = [
+  {
+    label: "Llama 3.3 70B",
+    value: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+  },
+  {
+    label: "DeepSeek R1 Distill Llama 70B",
+    value: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
   },
 ];
 
@@ -38,11 +49,11 @@ export const SUGGESTED_PROMPTS = [
     description:
       "Make me a blog app that has a few blogs there for people to read. Users can click into the blogs and read them, then go back to the homepage to see more.",
   },
-  // {
-  //   title: "Recipe site",
-  //   description:
-  //     "Make me a site that has easy to make recipes in a grid that you can click into and see the full recipe. Also make it possible for me to add my own",
-  // },
+  {
+    title: "Recipe site",
+    description:
+      "Make me a site that has easy to make recipes in a grid that you can click into and see the full recipe. Also make it possible for me to add my own",
+  },
   {
     title: "Flashcard app",
     description:

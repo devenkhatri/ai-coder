@@ -215,7 +215,7 @@ export default function Home() {
                                   {m.label}
                                 </Select.ItemText>
                                 <Select.ItemIndicator>
-                                  <CheckIcon className="size-3 text-blue-600" />
+                                  <CheckIcon className="size-3 text-blue-500" />
                                 </Select.ItemIndicator>
                               </Select.Item>
                             ))}
@@ -267,7 +267,7 @@ export default function Home() {
                                   {q.label}
                                 </Select.ItemText>
                                 <Select.ItemIndicator>
-                                  <CheckIcon className="size-3 text-blue-600" />
+                                  <CheckIcon className="size-3 text-blue-500" />
                                 </Select.ItemIndicator>
                               </Select.Item>
                             ))}
@@ -343,7 +343,7 @@ export default function Home() {
               Built with{" "}
               <a
                 href="https://togetherai.link/?utm_source=example-app&utm_medium=llamacoder&utm_campaign=llamacoder-app-signup"
-                className="font-semibold text-blue-600 underline-offset-4 transition hover:text-gray-700 hover:underline"
+                className="font-semibold text-blue-500 underline-offset-4 transition hover:text-gray-700 hover:underline"
               >
                 Together AI
               </a>
@@ -394,7 +394,7 @@ function LoadingMessage({
       <div className="flex flex-col items-center justify-center gap-2 text-gray-500">
         <span className="animate-pulse text-balance text-center text-sm md:text-base">
           {isHighQuality
-            ? `Coming up with project plan, may take 15 seconds...`
+            ? `Coming up with project plan, may take 15 to 45 seconds...`
             : screenshotUrl
               ? "Analyzing your screenshot..."
               : `Creating your app...`}

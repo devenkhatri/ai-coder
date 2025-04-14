@@ -11,10 +11,10 @@ export const MODELS1 = [
     label: "Llama 3.3 70B",
     value: "meta-llama/Llama-3.3-70B-Instruct-Turbo",
   },
-  {
-    label: "DeepSeek V3",
-    value: "deepseek-ai/DeepSeek-V3",
-  },
+  // {
+  //   label: "DeepSeek V3",
+  //   value: "deepseek-ai/DeepSeek-V3",
+  // },
 ];
 
 export const MODELS = [
@@ -22,10 +22,10 @@ export const MODELS = [
     label: "Llama 3.3 70B",
     value: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
   },
-  {
-    label: "DeepSeek R1 Distill Llama 70B",
-    value: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
-  },
+  // {
+  //   label: "DeepSeek R1 Distill Llama 70B",
+  //   value: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
+  // },
 ];
 
 export const SUGGESTED_PROMPTS = [

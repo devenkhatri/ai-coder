@@ -121,7 +121,7 @@ export async function createChat(
   if (quality === "high") {
     let initialRes = await together.chat.completions.create({
       // model: "Qwen/Qwen2.5-Coder-32B-Instruct",
-      model: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
+      model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
       messages: [
         {
           role: "system",
